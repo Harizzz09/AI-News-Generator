@@ -1,6 +1,7 @@
 from openai import OpenAI
 from dotenv import dotenv_values, find_dotenv
 
+#It's an AI tool dedicated to find news response regarding of anything 
 env_path = find_dotenv("APIL.env") 
 config = dotenv_values(env_path)
 
